@@ -1,0 +1,7 @@
+Screen {
+    layout: horizontal;
+}
+
+#detail-area {
+    width: 1fr;
+}

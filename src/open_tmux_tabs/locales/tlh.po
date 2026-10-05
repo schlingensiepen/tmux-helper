@@ -1,0 +1,204 @@
+# Klingon translation for Open-TmuxTabs
+#
+# Note: Klingon (tlhIngan Hol) lacks native vocabulary for most
+# modern IT concepts. Loanwords are used where no natural term
+# exists (e.g. "SSH", "tmux", "WT", "session", "host"). Core
+# interface actions use proper Klingon verbs and idioms.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: open-tmux-tabs 2.0.0\n"
+"Language: tlh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "+ New host"
+msgstr "+ host chu'"
+
+msgid ">> Open"
+msgstr ">> poSmoH"
+
+msgid "SSH target (user@host or alias):"
+msgstr "SSH qach (lo'wI'@host pagh pong'a'):"
+
+msgid "root@server or ssh-alias"
+msgstr "root@server pagh ssh-pong'a'"
+
+msgid "Add host"
+msgstr "host chel"
+
+msgid "Running sessions:"
+msgstr "session taHtaH:"
+
+msgid "Toggle: [t]   All: [a]   Invert: [i]"
+msgstr "choH: [t]   Hoch: [a]   jI': [i]"
+
+msgid "New sessions (one name per line):"
+msgstr "session chu' (wa' pong DaqvaD wa' Dop):"
+
+msgid "Reload"
+msgstr "chegh"
+
+msgid "Toggle"
+msgstr "choH"
+
+msgid "Toggle All"
+msgstr "Hoch choH"
+
+msgid "Invert"
+msgstr "jI'"
+
+msgid "Jump start"
+msgstr "taghlaH"
+
+msgid "Invalid name: '{name}'"
+msgstr "pong Qagh: '{name}'"
+
+msgid "A session named '{name}' already exists."
+msgstr "session '{name}' tu'lu'choH."
+
+msgid "Status: connection failed"
+msgstr "Dotlh: rar Qap Qagh"
+
+msgid "Reconnect"
+msgstr "rar ghu'"
+
+msgid "Set up host"
+msgstr "host cher"
+
+msgid "Delete"
+msgstr "Qaw'"
+
+msgid "Open all detected sessions"
+msgstr "Hoch session tu'lu'bogh poSmoH"
+
+msgid "Selection summary:"
+msgstr "wIv qummoH:"
+
+msgid "(no selection)"
+msgstr "(wIv pagh)"
+
+msgid "Total: {total} session(s) on {hosts} host(s)"
+msgstr "Hoch: {total} session {hosts} host Daq"
+
+msgid "(existing)"
+msgstr "(taH)"
+
+msgid "(new)"
+msgstr "(chu')"
+
+msgid "One WT – Open selection"
+msgstr "wa' WT – wIv poSmoH"
+
+msgid "Per host – Open selection"
+msgstr "host Hoch – wIv poSmoH"
+
+msgid "Delete host '{name}'?"
+msgstr "host '{name}' Qaw'?"
+
+msgid "Yes"
+msgstr "HIja'"
+
+msgid "No"
+msgstr "ghobe'"
+
+msgid "OK"
+msgstr "maj"
+
+msgid "Error on {name}"
+msgstr "Qagh: {name}"
+
+msgid "Waiting for pending connections..."
+msgstr "rar loS..."
+
+msgid "Quit"
+msgstr "mev"
+
+msgid "Delete host"
+msgstr "host Qaw'"
+
+msgid "New host"
+msgstr "host chu'"
+
+msgid "Open"
+msgstr "poSmoH"
+
+msgid "Open all"
+msgstr "Hoch poSmoH"
+
+msgid "Language"
+msgstr "Hol"
+
+msgid "Select language:"
+msgstr "Hol wIv:"
+
+msgid "Cancel"
+msgstr "Qaw'Ha'"
+
+msgid "Language changed to {name}. Restart now?"
+msgstr "{name} Hol choHta'. DaH tagh ghu'?"
+
+msgid "SSH connection timed out"
+msgstr "SSH rar poH rIn"
+
+msgid "ssh executable not found"
+msgstr "ssh ghunmeH Qu' tu'be'lu'"
+
+msgid "SSH error: {error}"
+msgstr "SSH Qagh: {error}"
+
+msgid "SSH connection failed"
+msgstr "SSH rar Qap Qagh"
+
+msgid "Setup: {host}"
+msgstr "cher: {host}"
+
+msgid "No SSH key found in %USERPROFILE%\\.ssh\\."
+msgstr "%USERPROFILE%\\.ssh\\ Daq SSH ngaSwI' tu'be'lu'."
+
+msgid "Create one first with: ssh-keygen -t ed25519"
+msgstr "wa' chenmoH wa'DIch: ssh-keygen -t ed25519"
+
+msgid "Press Enter to close"
+msgstr "SoQmeH Enter yIqIp"
+
+msgid "Deploying {key} to {host}..."
+msgstr "{key} {host} Daq ngeH..."
+
+msgid "Key deployed."
+msgstr "ngaSwI' ngeHta'."
+
+# ============================================================
+# Direct Session / Show All (new features)
+# ============================================================
+
+msgid "Direct session"
+msgstr "session Doq"
+
+msgid "Show all"
+msgstr "Hoch cha'"
+
+msgid "Host"
+msgstr "host"
+
+msgid "Session"
+msgstr "session"
+
+msgid "Waiting for connections..."
+msgstr "rar loS..."
+
+msgid "One WT – Execute"
+msgstr "wa' WT – ta'"
+
+msgid "Per host – Execute"
+msgstr "host Hoch – ta'"
+
+msgid "Target hosts:"
+msgstr "host qach:"
+
+msgid "Session names (one per line):"
+msgstr "session pong (wa' Dop wa'):"
+
+msgid "Execute"
+msgstr "ta'"

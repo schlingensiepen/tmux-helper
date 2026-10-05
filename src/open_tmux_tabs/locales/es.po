@@ -1,0 +1,199 @@
+# Spanish translation for Open-TmuxTabs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: open-tmux-tabs 2.0.0\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "+ New host"
+msgstr "+ Nuevo anfitrión"
+
+msgid ">> Open"
+msgstr ">> Abrir"
+
+msgid "SSH target (user@host or alias):"
+msgstr "Destino SSH (usuario@host o alias):"
+
+msgid "root@server or ssh-alias"
+msgstr "root@servidor o alias-ssh"
+
+msgid "Add host"
+msgstr "Añadir anfitrión"
+
+msgid "Running sessions:"
+msgstr "Sesiones activas:"
+
+msgid "Toggle: [t]   All: [a]   Invert: [i]"
+msgstr "Alternar: [t]   Todo: [a]   Invertir: [i]"
+
+msgid "New sessions (one name per line):"
+msgstr "Nuevas sesiones (un nombre por línea):"
+
+msgid "Reload"
+msgstr "Recargar"
+
+msgid "Toggle"
+msgstr "Alternar"
+
+msgid "Toggle All"
+msgstr "Alternar todo"
+
+msgid "Invert"
+msgstr "Invertir"
+
+msgid "Jump start"
+msgstr "Inicio rápido"
+
+msgid "Invalid name: '{name}'"
+msgstr "Nombre inválido: '{name}'"
+
+msgid "A session named '{name}' already exists."
+msgstr "Ya existe una sesión llamada '{name}'."
+
+msgid "Status: connection failed"
+msgstr "Estado: conexión fallida"
+
+msgid "Reconnect"
+msgstr "Reconectar"
+
+msgid "Set up host"
+msgstr "Configurar anfitrión"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Open all detected sessions"
+msgstr "Abrir todas las sesiones detectadas"
+
+msgid "Selection summary:"
+msgstr "Resumen de la selección:"
+
+msgid "(no selection)"
+msgstr "(sin selección)"
+
+msgid "Total: {total} session(s) on {hosts} host(s)"
+msgstr "Total: {total} sesión/es en {hosts} anfitrión/es"
+
+msgid "(existing)"
+msgstr "(existente)"
+
+msgid "(new)"
+msgstr "(nueva)"
+
+msgid "One WT – Open selection"
+msgstr "Un WT – Abrir selección"
+
+msgid "Per host – Open selection"
+msgstr "Por anfitrión – Abrir selección"
+
+msgid "Delete host '{name}'?"
+msgstr "¿Eliminar el anfitrión '{name}'?"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "No"
+msgstr "No"
+
+msgid "OK"
+msgstr "Aceptar"
+
+msgid "Error on {name}"
+msgstr "Error en {name}"
+
+msgid "Waiting for pending connections..."
+msgstr "Esperando conexiones pendientes..."
+
+msgid "Quit"
+msgstr "Salir"
+
+msgid "Delete host"
+msgstr "Eliminar anfitrión"
+
+msgid "New host"
+msgstr "Nuevo anfitrión"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Open all"
+msgstr "Abrir todo"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Select language:"
+msgstr "Seleccionar idioma:"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Language changed to {name}. Restart now?"
+msgstr "Idioma cambiado a {name}. ¿Reiniciar ahora?"
+
+msgid "SSH connection timed out"
+msgstr "Tiempo de conexión SSH agotado"
+
+msgid "ssh executable not found"
+msgstr "ejecutable ssh no encontrado"
+
+msgid "SSH error: {error}"
+msgstr "Error SSH: {error}"
+
+msgid "SSH connection failed"
+msgstr "Conexión SSH fallida"
+
+msgid "Setup: {host}"
+msgstr "Configuración: {host}"
+
+msgid "No SSH key found in %USERPROFILE%\\.ssh\\."
+msgstr "No se encontró ninguna clave SSH en %USERPROFILE%\\.ssh\\."
+
+msgid "Create one first with: ssh-keygen -t ed25519"
+msgstr "Cree una primero con: ssh-keygen -t ed25519"
+
+msgid "Press Enter to close"
+msgstr "Pulse Intro para cerrar"
+
+msgid "Deploying {key} to {host}..."
+msgstr "Desplegando {key} en {host}..."
+
+msgid "Key deployed."
+msgstr "Clave desplegada."
+
+# ============================================================
+# Direct Session / Show All (new features)
+# ============================================================
+
+msgid "Direct session"
+msgstr "Sesión directa"
+
+msgid "Show all"
+msgstr "Vista general"
+
+msgid "Host"
+msgstr "Anfitrión"
+
+msgid "Session"
+msgstr "Sesión"
+
+msgid "Waiting for connections..."
+msgstr "Esperando conexiones..."
+
+msgid "One WT – Execute"
+msgstr "Un WT – Ejecutar"
+
+msgid "Per host – Execute"
+msgstr "Por anfitrión – Ejecutar"
+
+msgid "Target hosts:"
+msgstr "Hosts objetivo:"
+
+msgid "Session names (one per line):"
+msgstr "Nombres de sesión (uno por línea):"
+
+msgid "Execute"
+msgstr "Ejecutar"

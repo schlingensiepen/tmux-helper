@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-tmux-tabs"
+version = "2.0.0"
+description = "TUI for managing remote tmux sessions in Windows Terminal"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=0.86",
+]
+
+[project.optional-dependencies]
+dev = [
+    "textual-dev",
+    "pytest",
+    "pytest-asyncio",
+]
+build = [
+    "build",
+    "pyinstaller>=6",
+]
+
+[project.urls]
+Homepage = "https://github.com/schlingensiepen/tmux-helper"
+Releases = "https://github.com/schlingensiepen/tmux-helper/releases"
+
+[project.scripts]
+open-tmux-tabs = "open_tmux_tabs.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+open_tmux_tabs = [
+    "app.tcss",
+    "locales/*/LC_MESSAGES/*.mo",
+    "locales/*.po",
+    "locales/messages.pot",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

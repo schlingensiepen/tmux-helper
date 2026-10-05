@@ -1,0 +1,204 @@
+# Urdu translation for Open-TmuxTabs
+#
+# Note: Urdu is a right-to-left (RTL) script. Textual should
+# render the glyphs correctly, though text direction in a TUI
+# is limited. Technical terms (SSH, tmux, WT, host, session)
+# are kept as loanwords.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: open-tmux-tabs 2.0.0\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "+ New host"
+msgstr "+ نیا ہوسٹ"
+
+msgid ">> Open"
+msgstr ">> کھولیں"
+
+msgid "SSH target (user@host or alias):"
+msgstr "SSH ہدف (user@host یا عرفی نام):"
+
+msgid "root@server or ssh-alias"
+msgstr "root@server یا ssh-alias"
+
+msgid "Add host"
+msgstr "ہوسٹ شامل کریں"
+
+msgid "Running sessions:"
+msgstr "چل رہے سیشنز:"
+
+msgid "Toggle: [t]   All: [a]   Invert: [i]"
+msgstr "ٹوگل: [t]   سب: [a]   الٹ: [i]"
+
+msgid "New sessions (one name per line):"
+msgstr "نئے سیشنز (فی سطر ایک نام):"
+
+msgid "Reload"
+msgstr "دوبارہ لوڈ کریں"
+
+msgid "Toggle"
+msgstr "ٹوگل"
+
+msgid "Toggle All"
+msgstr "سب کو ٹوگل کریں"
+
+msgid "Invert"
+msgstr "الٹ کریں"
+
+msgid "Jump start"
+msgstr "فوری آغاز"
+
+msgid "Invalid name: '{name}'"
+msgstr "غلط نام: '{name}'"
+
+msgid "A session named '{name}' already exists."
+msgstr "'{name}' نامی سیشن پہلے سے موجود ہے۔"
+
+msgid "Status: connection failed"
+msgstr "حیثیت: کنکشن ناکام"
+
+msgid "Reconnect"
+msgstr "دوبارہ جڑیں"
+
+msgid "Set up host"
+msgstr "ہوسٹ ترتیب دیں"
+
+msgid "Delete"
+msgstr "حذف کریں"
+
+msgid "Open all detected sessions"
+msgstr "تمام پائے گئے سیشنز کھولیں"
+
+msgid "Selection summary:"
+msgstr "انتخاب کا خلاصہ:"
+
+msgid "(no selection)"
+msgstr "(کوئی انتخاب نہیں)"
+
+msgid "Total: {total} session(s) on {hosts} host(s)"
+msgstr "کل: {hosts} ہوسٹ پر {total} سیشن"
+
+msgid "(existing)"
+msgstr "(موجودہ)"
+
+msgid "(new)"
+msgstr "(نیا)"
+
+msgid "One WT – Open selection"
+msgstr "ایک WT – انتخاب کھولیں"
+
+msgid "Per host – Open selection"
+msgstr "فی ہوسٹ – انتخاب کھولیں"
+
+msgid "Delete host '{name}'?"
+msgstr "ہوسٹ '{name}' حذف کریں؟"
+
+msgid "Yes"
+msgstr "ہاں"
+
+msgid "No"
+msgstr "نہیں"
+
+msgid "OK"
+msgstr "ٹھیک ہے"
+
+msgid "Error on {name}"
+msgstr "{name} پر خرابی"
+
+msgid "Waiting for pending connections..."
+msgstr "زیر التواء کنکشنز کا انتظار..."
+
+msgid "Quit"
+msgstr "باہر نکلیں"
+
+msgid "Delete host"
+msgstr "ہوسٹ حذف کریں"
+
+msgid "New host"
+msgstr "نیا ہوسٹ"
+
+msgid "Open"
+msgstr "کھولیں"
+
+msgid "Open all"
+msgstr "سب کھولیں"
+
+msgid "Language"
+msgstr "زبان"
+
+msgid "Select language:"
+msgstr "زبان منتخب کریں:"
+
+msgid "Cancel"
+msgstr "منسوخ"
+
+msgid "Language changed to {name}. Restart now?"
+msgstr "زبان {name} میں تبدیل ہوگئی۔ ابھی دوبارہ شروع کریں؟"
+
+msgid "SSH connection timed out"
+msgstr "SSH کنکشن کا وقت ختم"
+
+msgid "ssh executable not found"
+msgstr "ssh فائل نہیں ملی"
+
+msgid "SSH error: {error}"
+msgstr "SSH خرابی: {error}"
+
+msgid "SSH connection failed"
+msgstr "SSH کنکشن ناکام"
+
+msgid "Setup: {host}"
+msgstr "ترتیب: {host}"
+
+msgid "No SSH key found in %USERPROFILE%\\.ssh\\."
+msgstr "%USERPROFILE%\\.ssh\\ میں کوئی SSH کلید نہیں ملی۔"
+
+msgid "Create one first with: ssh-keygen -t ed25519"
+msgstr "پہلے یہ چلائیں: ssh-keygen -t ed25519"
+
+msgid "Press Enter to close"
+msgstr "بند کرنے کے لیے Enter دبائیں"
+
+msgid "Deploying {key} to {host}..."
+msgstr "{key} کو {host} پر بھیجا جا رہا ہے..."
+
+msgid "Key deployed."
+msgstr "کلید بھیج دی گئی۔"
+
+# ============================================================
+# Direct Session / Show All (new features)
+# ============================================================
+
+msgid "Direct session"
+msgstr "براہ راست سیشن"
+
+msgid "Show all"
+msgstr "مکمل جائزہ"
+
+msgid "Host"
+msgstr "ہوسٹ"
+
+msgid "Session"
+msgstr "سیشن"
+
+msgid "Waiting for connections..."
+msgstr "کنکشنز کا انتظار..."
+
+msgid "One WT – Execute"
+msgstr "ایک WT – عمل کریں"
+
+msgid "Per host – Execute"
+msgstr "فی ہوسٹ – عمل کریں"
+
+msgid "Target hosts:"
+msgstr "ہدف ہوسٹ:"
+
+msgid "Session names (one per line):"
+msgstr "سیشن نام (فی سطر ایک):"
+
+msgid "Execute"
+msgstr "عمل کریں"

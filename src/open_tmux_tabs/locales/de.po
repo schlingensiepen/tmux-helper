@@ -1,0 +1,319 @@
+# German translation for Open-TmuxTabs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: open-tmux-tabs 2.0.0\n"
+"POT-Creation-Date: 2026-04-07 00:00+0000\n"
+"PO-Revision-Date: 2026-04-07 00:00+0000\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ============================================================
+# Host list (left panel)
+# ============================================================
+
+#. List entry at the top of the host list.
+#: src/open_tmux_tabs/widgets/host_list.py
+msgid "+ New host"
+msgstr "+ Neuer Host"
+
+#. List entry at the bottom of the host list.
+#: src/open_tmux_tabs/widgets/host_list.py
+msgid ">> Open"
+msgstr ">> Öffnen"
+
+# ============================================================
+# New host form
+# ============================================================
+
+#: src/open_tmux_tabs/widgets/new_host.py
+msgid "SSH target (user@host or alias):"
+msgstr "SSH-Ziel (user@host oder Alias):"
+
+#: src/open_tmux_tabs/widgets/new_host.py
+msgid "root@server or ssh-alias"
+msgstr "root@server oder ssh-alias"
+
+#: src/open_tmux_tabs/widgets/new_host.py
+msgid "Add host"
+msgstr "Host hinzufügen"
+
+# ============================================================
+# Host detail view
+# ============================================================
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Running sessions:"
+msgstr "Laufende Sessions:"
+
+#. Keep the bracketed letters as they are (key bindings).
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Toggle: [t]   All: [a]   Invert: [i]"
+msgstr "Toggle: [t]   Alle: [a]   Invertieren: [i]"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "New sessions (one name per line):"
+msgstr "Neue Sessions (ein Name pro Zeile):"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Reload"
+msgstr "Neu laden"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Toggle"
+msgstr "Umschalten"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Toggle All"
+msgstr "Alle umschalten"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Invert"
+msgstr "Invertieren"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Jump start"
+msgstr "Sofortstart"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Invalid name: '{name}'"
+msgstr "Ungültiger Name: '{name}'"
+
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "A session named '{name}' already exists."
+msgstr "Eine Session '{name}' existiert bereits."
+
+# ============================================================
+# Host error view
+# ============================================================
+
+#: src/open_tmux_tabs/widgets/host_error.py
+msgid "Status: connection failed"
+msgstr "Status: Verbindung fehlgeschlagen"
+
+#: src/open_tmux_tabs/widgets/host_error.py
+msgid "Reconnect"
+msgstr "Erneut verbinden"
+
+#. Button: opens an interactive WT to deploy the SSH key
+#: src/open_tmux_tabs/widgets/host_error.py
+msgid "Set up host"
+msgstr "Host einrichten"
+
+#: src/open_tmux_tabs/widgets/host_error.py
+#: src/open_tmux_tabs/widgets/host_detail.py
+msgid "Delete"
+msgstr "Löschen"
+
+# ============================================================
+# Open view
+# ============================================================
+
+#: src/open_tmux_tabs/widgets/open_view.py
+msgid "Open all detected sessions"
+msgstr "Alle erkannten Sessions"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+msgid "Selection summary:"
+msgstr "Zusammenfassung der Auswahl:"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+msgid "(no selection)"
+msgstr "(keine Auswahl)"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+msgid "Total: {total} session(s) on {hosts} host(s)"
+msgstr "Gesamt: {total} Session(s) auf {hosts} Host(s)"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+msgid "(existing)"
+msgstr "(bestehend)"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+msgid "(new)"
+msgstr "(neu)"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+#: src/open_tmux_tabs/widgets/show_all_view.py
+msgid "One WT – Open selection"
+msgstr "Ein WT – Auswahl öffnen"
+
+#: src/open_tmux_tabs/widgets/open_view.py
+#: src/open_tmux_tabs/widgets/show_all_view.py
+msgid "Per host – Open selection"
+msgstr "Pro Host – Auswahl öffnen"
+
+# ============================================================
+# Confirm dialog
+# ============================================================
+
+#: src/open_tmux_tabs/app.py
+msgid "Delete host '{name}'?"
+msgstr "Host '{name}' löschen?"
+
+#: src/open_tmux_tabs/widgets/confirm_dialog.py
+msgid "Yes"
+msgstr "Ja"
+
+#: src/open_tmux_tabs/widgets/confirm_dialog.py
+msgid "No"
+msgstr "Nein"
+
+# ============================================================
+# Language selection dialog
+# ============================================================
+
+#: src/open_tmux_tabs/widgets/language_dialog.py
+msgid "Select language:"
+msgstr "Sprache wählen:"
+
+#: src/open_tmux_tabs/widgets/language_dialog.py
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/open_tmux_tabs/app.py
+msgid "Language changed to {name}. Restart now?"
+msgstr "Sprache geändert zu {name}. Jetzt neu starten?"
+
+# ============================================================
+# Error dialog
+# ============================================================
+
+#: src/open_tmux_tabs/widgets/error_dialog.py
+msgid "OK"
+msgstr "OK"
+
+#: src/open_tmux_tabs/app.py
+msgid "Error on {name}"
+msgstr "Fehler bei {name}"
+
+# ============================================================
+# Notifications
+# ============================================================
+
+#: src/open_tmux_tabs/app.py
+msgid "Waiting for pending connections..."
+msgstr "Warte auf ausstehende Verbindungen..."
+
+# ============================================================
+# Footer bindings
+# ============================================================
+
+#: src/open_tmux_tabs/app.py
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/open_tmux_tabs/app.py
+msgid "Delete host"
+msgstr "Host löschen"
+
+#: src/open_tmux_tabs/app.py
+msgid "New host"
+msgstr "Neuer Host"
+
+#: src/open_tmux_tabs/app.py
+msgid "Open"
+msgstr "Öffnen"
+
+#: src/open_tmux_tabs/app.py
+msgid "Open all"
+msgstr "Alle öffnen"
+
+#: src/open_tmux_tabs/app.py
+msgid "Language"
+msgstr "Sprache"
+
+# ============================================================
+# SSH error messages
+# ============================================================
+
+#: src/open_tmux_tabs/ssh.py
+msgid "SSH connection timed out"
+msgstr "Zeitüberschreitung bei der SSH-Verbindung"
+
+#: src/open_tmux_tabs/ssh.py
+msgid "ssh executable not found"
+msgstr "ssh nicht gefunden"
+
+#: src/open_tmux_tabs/ssh.py
+msgid "SSH error: {error}"
+msgstr "SSH Fehler: {error}"
+
+#: src/open_tmux_tabs/ssh.py
+msgid "SSH connection failed"
+msgstr "SSH-Verbindung fehlgeschlagen"
+
+# ============================================================
+# Set up host (interactive WT for SSH key deployment)
+# ============================================================
+
+#: src/open_tmux_tabs/wt_launcher.py
+msgid "Setup: {host}"
+msgstr "Einrichtung: {host}"
+
+#: src/open_tmux_tabs/wt_launcher.py
+msgid "No SSH key found in %USERPROFILE%\\.ssh\\."
+msgstr "Kein SSH-Schluessel gefunden in %USERPROFILE%\\.ssh\\."
+
+#: src/open_tmux_tabs/wt_launcher.py
+msgid "Create one first with: ssh-keygen -t ed25519"
+msgstr "Erzeuge zuerst einen mit: ssh-keygen -t ed25519"
+
+#: src/open_tmux_tabs/wt_launcher.py
+msgid "Press Enter to close"
+msgstr "Drücke Enter zum Beenden"
+
+#: src/open_tmux_tabs/wt_launcher.py
+msgid "Deploying {key} to {host}..."
+msgstr "Deploye {key} auf {host}..."
+
+#: src/open_tmux_tabs/wt_launcher.py
+msgid "Key deployed."
+msgstr "Schlüssel deployed."
+
+# ============================================================
+# Direct Session / Show All (new features)
+# ============================================================
+
+#: src/open_tmux_tabs/app.py
+msgid "Direct session"
+msgstr "Direktsession"
+
+#: src/open_tmux_tabs/app.py
+msgid "Show all"
+msgstr "Übersicht"
+
+#: src/open_tmux_tabs/widgets/show_all_view.py
+msgid "Host"
+msgstr "Host"
+
+#: src/open_tmux_tabs/widgets/show_all_view.py
+msgid "Session"
+msgstr "Session"
+
+#: src/open_tmux_tabs/widgets/show_all_view.py
+msgid "Waiting for connections..."
+msgstr "Warte auf Verbindungen..."
+
+#: src/open_tmux_tabs/widgets/direct_session_view.py
+msgid "One WT – Execute"
+msgstr "Ein WT – Ausführen"
+
+#: src/open_tmux_tabs/widgets/direct_session_view.py
+msgid "Per host – Execute"
+msgstr "Pro Host – Ausführen"
+
+#: src/open_tmux_tabs/widgets/direct_session_view.py
+msgid "Target hosts:"
+msgstr "Ziel-Hosts:"
+
+#: src/open_tmux_tabs/widgets/direct_session_view.py
+msgid "Session names (one per line):"
+msgstr "Session-Namen (einer pro Zeile):"
+
+#: src/open_tmux_tabs/widgets/direct_session_view.py
+msgid "Execute"
+msgstr "Ausführen"

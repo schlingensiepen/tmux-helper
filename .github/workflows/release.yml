@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python -m pip install ".[dev,build]"
+      - name: Test
+        run: python -m pytest -q
+      - name: Build wheel
+        run: python -m build --wheel
+      - name: Build executable
+        run: pyinstaller --noconfirm packaging/open-tmux-tabs.spec
+      - name: Collect release assets
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release | Out-Null
+          Copy-Item dist/*.whl, dist/open-tmux-tabs.exe release/
+          Copy-Item docs/LIESMICH.md, deploy/samba/start.cmd, deploy/samba/ssh-config-beispiel.txt release/
+          Get-ChildItem release/*.whl, release/open-tmux-tabs.exe | ForEach-Object {
+            $h = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
+            "$h  $($_.Name)" | Out-File -Encoding ascii "$($_.FullName).sha256"
+          }
+          Get-ChildItem release
+      - name: Create draft release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "${{ github.ref_name }}"
+          gh release create $tag --draft --title "Open-TmuxTabs $tag" --notes-file "docs/release-notes/$tag.md" (Get-ChildItem release/*).FullName

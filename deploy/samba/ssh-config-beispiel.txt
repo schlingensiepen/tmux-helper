@@ -1,0 +1,8 @@
+# Diesen Block in die Datei %USERPROFILE%\.ssh\config einfuegen.
+# Falls die Datei nicht existiert, neu anlegen.
+
+Host clawbook
+    HostName localhost
+    Port 2222
+    User student
+    IdentityFile ~/.ssh/clawbook

@@ -1,0 +1,199 @@
+# Esperanto translation for Open-TmuxTabs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: open-tmux-tabs 2.0.0\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "+ New host"
+msgstr "+ Nova gastiganto"
+
+msgid ">> Open"
+msgstr ">> Malfermi"
+
+msgid "SSH target (user@host or alias):"
+msgstr "SSH-celo (uzanto@gastiganto aŭ kromnomo):"
+
+msgid "root@server or ssh-alias"
+msgstr "root@servilo aŭ ssh-kromnomo"
+
+msgid "Add host"
+msgstr "Aldoni gastiganton"
+
+msgid "Running sessions:"
+msgstr "Aktivaj seancoj:"
+
+msgid "Toggle: [t]   All: [a]   Invert: [i]"
+msgstr "Baskuli: [t]   Ĉiuj: [a]   Inversigi: [i]"
+
+msgid "New sessions (one name per line):"
+msgstr "Novaj seancoj (unu nomo po linio):"
+
+msgid "Reload"
+msgstr "Reŝargi"
+
+msgid "Toggle"
+msgstr "Baskuli"
+
+msgid "Toggle All"
+msgstr "Baskuli ĉiujn"
+
+msgid "Invert"
+msgstr "Inversigi"
+
+msgid "Jump start"
+msgstr "Rapida ekigo"
+
+msgid "Invalid name: '{name}'"
+msgstr "Nevalida nomo: '{name}'"
+
+msgid "A session named '{name}' already exists."
+msgstr "Seanco nomata '{name}' jam ekzistas."
+
+msgid "Status: connection failed"
+msgstr "Stato: konekto malsukcesis"
+
+msgid "Reconnect"
+msgstr "Rekonekti"
+
+msgid "Set up host"
+msgstr "Agordi gastiganton"
+
+msgid "Delete"
+msgstr "Forigi"
+
+msgid "Open all detected sessions"
+msgstr "Malfermi ĉiujn trovitajn seancojn"
+
+msgid "Selection summary:"
+msgstr "Resumo de elekto:"
+
+msgid "(no selection)"
+msgstr "(neniu elekto)"
+
+msgid "Total: {total} session(s) on {hosts} host(s)"
+msgstr "Entute: {total} seanco(j) sur {hosts} gastiganto(j)"
+
+msgid "(existing)"
+msgstr "(ekzistanta)"
+
+msgid "(new)"
+msgstr "(nova)"
+
+msgid "One WT – Open selection"
+msgstr "Unu WT – Malfermi elekton"
+
+msgid "Per host – Open selection"
+msgstr "Po gastiganto – Malfermi elekton"
+
+msgid "Delete host '{name}'?"
+msgstr "Ĉu forigi gastiganton '{name}'?"
+
+msgid "Yes"
+msgstr "Jes"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "OK"
+msgstr "Bone"
+
+msgid "Error on {name}"
+msgstr "Eraro ĉe {name}"
+
+msgid "Waiting for pending connections..."
+msgstr "Atendante pendantajn konektojn..."
+
+msgid "Quit"
+msgstr "Forlasi"
+
+msgid "Delete host"
+msgstr "Forigi gastiganton"
+
+msgid "New host"
+msgstr "Nova gastiganto"
+
+msgid "Open"
+msgstr "Malfermi"
+
+msgid "Open all"
+msgstr "Malfermi ĉiujn"
+
+msgid "Language"
+msgstr "Lingvo"
+
+msgid "Select language:"
+msgstr "Elekti lingvon:"
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Language changed to {name}. Restart now?"
+msgstr "Lingvo ŝanĝita al {name}. Ĉu rekomenci nun?"
+
+msgid "SSH connection timed out"
+msgstr "SSH-konekto eltempiĝis"
+
+msgid "ssh executable not found"
+msgstr "ssh-programo ne trovita"
+
+msgid "SSH error: {error}"
+msgstr "SSH-eraro: {error}"
+
+msgid "SSH connection failed"
+msgstr "SSH-konekto malsukcesis"
+
+msgid "Setup: {host}"
+msgstr "Agordo: {host}"
+
+msgid "No SSH key found in %USERPROFILE%\\.ssh\\."
+msgstr "Neniu SSH-ŝlosilo trovita en %USERPROFILE%\\.ssh\\."
+
+msgid "Create one first with: ssh-keygen -t ed25519"
+msgstr "Kreu unu unue per: ssh-keygen -t ed25519"
+
+msgid "Press Enter to close"
+msgstr "Premu Enigklavon por fermi"
+
+msgid "Deploying {key} to {host}..."
+msgstr "Sendante {key} al {host}..."
+
+msgid "Key deployed."
+msgstr "Ŝlosilo sendita."
+
+# ============================================================
+# Direct Session / Show All (new features)
+# ============================================================
+
+msgid "Direct session"
+msgstr "Rekta seanco"
+
+msgid "Show all"
+msgstr "Superrigardo"
+
+msgid "Host"
+msgstr "Gastiganto"
+
+msgid "Session"
+msgstr "Seanco"
+
+msgid "Waiting for connections..."
+msgstr "Atendante konektojn..."
+
+msgid "One WT – Execute"
+msgstr "Unu WT – Plenumi"
+
+msgid "Per host – Execute"
+msgstr "Po gastiganto – Plenumi"
+
+msgid "Target hosts:"
+msgstr "Celaj gastigantoj:"
+
+msgid "Session names (one per line):"
+msgstr "Seancaj nomoj (unu po linio):"
+
+msgid "Execute"
+msgstr "Plenumi"
